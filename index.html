@@ -85,7 +85,6 @@
         repos = repos || [];
         page = page || 1;
         var uri = "https://api.github.com/orgs/AdFabConnect/repos?callback=?"
-                + "&archived=false"
                 + "&per_page=100"
                 + "&page="+page;
         $.getJSON(uri, function (result) {
@@ -95,6 +94,8 @@
           }
           else {
             $(function () {
+              // filter archived repos
+              repos = repos.filter(element => element.archived == false);
               $("#num-repos").text(repos.length);
               // Convert pushed_at to Date.
               $.each(repos, function (i, repo) {
