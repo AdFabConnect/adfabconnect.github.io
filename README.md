@@ -1,6 +1,6 @@
-# AdFabConnect.github.io
+# Open source projects crafted with <3 at Adfab!
 
-The source code of https://adfabconnect.github.io
+Source code of https://adfabconnect.github.io.
 
 ## LICENSE
 
