@@ -85,6 +85,7 @@
         repos = repos || [];
         page = page || 1;
         var uri = "https://api.github.com/orgs/AdFabConnect/repos?callback=?"
+                + "&archived=false"
                 + "&per_page=100"
                 + "&page="+page;
         $.getJSON(uri, function (result) {
