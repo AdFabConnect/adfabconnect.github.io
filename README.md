@@ -1,4 +1,4 @@
-# Open source projects crafted with <3 at Adfab!
+# Open source projects crafted with <3 at ADFAB!
 
 Source code of https://adfabconnect.github.io.
 
