@@ -1,5 +1,5 @@
 html {
-  background: url("bg.png") repeat;
+  /*background: url("bg.png") repeat;*/
 }
 
 body {
@@ -18,11 +18,11 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 20px;
-  color: #0084b4;
+  color: #0066FF;
 }
 
 a:link, a:visited {
-  color: #0084b4;
+  color: #0066FF;
   text-decoration: none;
 }
 
@@ -92,7 +92,7 @@ div.header h1 {
 #num-repos, #num-members {
   font-size: 14px;
   font-weight: bold;
-  color: #0084b4;
+  color: #0066FF;
   line-height: 15px;
 }
 
@@ -187,7 +187,19 @@ li.repo h3 {
 }
 
 .repo.javascript:after {
-  border-right-color: #333;
+  border-right-color: #F7DF1E;
+}
+
+.repo.php:after {
+  border-right-color: #8892BF;
+}
+
+.repo.html:after {
+  border-right-color: #D25836;
+}
+
+.repo.css:after {
+  border-right-color: #246BAA;
 }
 
 .repo.scala:after {
